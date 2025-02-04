@@ -1,5 +1,19 @@
 # Changelog
 
+## [11.2.0](https://github.com/npm/cli/compare/v11.1.0...v11.2.0) (2025-02-04)
+### Features
+* [`3a80a7b`](https://github.com/npm/cli/commit/3a80a7b7d168c23b5e297cba7b47ba5b9875934d) [#8081](https://github.com/npm/cli/pull/8081) add --init-type flag (#8081) (@reggi)
+* [`2a1e11f`](https://github.com/npm/cli/commit/2a1e11f1f6e4a4c948b8ac52b9cda8f370d8674b) [#8071](https://github.com/npm/cli/pull/8071) move nerfDart list into @npmcli/config (@wraithgar)
+### Bug Fixes
+* [`879303c`](https://github.com/npm/cli/commit/879303cd7c529a04d855f47d14dce433118ac626) [#8078](https://github.com/npm/cli/pull/8078) warn on invalid publishConfig (#8078) (@wraithgar)
+* [`41417de`](https://github.com/npm/cli/commit/41417de9f493969a5826d05d7024fdd1da8d88da) [#8080](https://github.com/npm/cli/pull/8080) warn when TUF fetching of keys fails (#8080) (@wraithgar)
+* [`593c849`](https://github.com/npm/cli/commit/593c84921b0df963cef2ca7b13e44acc20cbd558) [#8076](https://github.com/npm/cli/pull/8076) warn on invalid single-hyphen cli flags (#8076) (@wraithgar)
+### Dependencies
+* [`f0f6265`](https://github.com/npm/cli/commit/f0f626526b86bb54862bb4c0e3c24adfc0f1c8ce) [#8071](https://github.com/npm/cli/pull/8071) `nopt@8.1.0`
+### Chores
+* [`ed85b01`](https://github.com/npm/cli/commit/ed85b014bfb050ae4ae04827133d49b0f78c5df0) [#8071](https://github.com/npm/cli/pull/8071) tests for config warnings/changes (@wraithgar)
+* [workspace](https://github.com/npm/cli/releases/tag/config-v10.1.0): `@npmcli/config@10.1.0`
+
 ## [11.1.0](https://github.com/npm/cli/compare/v11.0.0...v11.1.0) (2025-01-29)
 ### Features
 * [`7f6c997`](https://github.com/npm/cli/commit/7f6c9973dc9a4dfebd76e52e060a9d8496b8bd98) [#8009](https://github.com/npm/cli/pull/8009) add dry-run to deprecate/undeprecate commands (@wraithgar)
